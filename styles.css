@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(106, 74, 186);
+    color: rgb(65, 44, 118);
+}
+#c {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#c2 {
+    display: flex;
+    flex-direction: row;
+}
+#h {
+
+}
+#t {
+    border: 5px solid;
+    border-radius: 10px;
+    width: 500px;
+    height: 500px;
+    color: rgb(65, 44, 118);
+    font-size: large;
+}
+#t:focus {
+    outline: none;
+}
+#b {
+    padding: 20px 40px;
+    margin-top: 20px;
+    border: 4px solid;
+    border-radius: 5px;
+    color: rgb(65, 44, 118);
+    background-color: white;
+    cursor: pointer;
+    transition: all .1s;
+    font-size: x-large;
+}
+#bi {
+    padding: 20px 40px;
+    margin-top: 20px;
+    border: 4px solid;
+    border-radius: 5px;
+    color: rgb(65, 44, 118);
+    background-color: white;
+    cursor: pointer;
+    transition: all .1s;
+    font-size: x-large;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#be {
+    padding: 20px 40px;
+    margin-top: 20px;
+    border: 4px solid;
+    border-radius: 5px;
+    color: rgb(65, 44, 118);
+    background-color: white;
+    cursor: pointer;
+    transition: all .1s;
+    font-size: x-large;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#f {
+    color: green;
+    margin-top: 10px;
+}
