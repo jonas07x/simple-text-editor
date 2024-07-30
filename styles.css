@@ -18,8 +18,8 @@ body {
 #t {
     border: 5px solid;
     border-radius: 10px;
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     color: rgb(65, 44, 118);
     font-size: large;
 }
