@@ -25,7 +25,6 @@ function getC(n) {
 
 function initPage() {
     note = getC('note');
-    t.value = note;
 }
 
 function save() {
