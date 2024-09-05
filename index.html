@@ -5,14 +5,14 @@
     </head>
     <body>
         <div id="c">
-            <h1 class="h">a simple online text editor</h1>
+            <h1 class="h">a simple online plain text editor</h1>
             <textarea id="t"></textarea>
             <div id="c2">
-                <input id="fc" type="file" style="display: none;">
-                <button id="bi" onclick="importieren()">import</button>
-                <button id="be" onclick="exportieren()">export</button>
+                <input id="fc" type="file" accept=".txt" style="display: none;">
+                <button class="b" id="bi" onclick="importfile()">import</button>
+                <button class="b" id="be" onclick="exportfile()">export</button>
+                <button class="b" id="bc" onclick="clearcontent()">clear</button>
             </div>
-            <div id="f"></div>
         </div>
         <script src="script.js"></script>
     </body>
