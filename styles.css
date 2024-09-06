@@ -8,12 +8,9 @@ body {
     flex-direction: column;
     align-items: center;
 }
-#c2 {
-    display: flex;
-    flex-direction: row;
-}
-#h {
-
+#c3 {
+    margin-top: 50px;
+    text-align: center;
 }
 #t {
     border: 5px solid;
@@ -22,6 +19,14 @@ body {
     color: rgb(118, 44, 44);
     font-size: large;
     background-color: black;
+    text-shadow: 
+        0 0 5px rgba(118, 44, 44, 0.5),
+        0 0 10px rgba(118, 44, 44, 0.5), 
+        0 0 15px rgba(118, 44, 44, 0.5), 
+        0 0 20px rgba(118, 44, 44, 0.5), 
+        0 0 25px rgba(118, 44, 44, 0.5), 
+        0 0 30px rgba(118, 44, 44, 0.5), 
+        0 0 35px rgba(118, 44, 44, 0.5);
 }
 #t:focus {
     outline: none;
@@ -44,4 +49,13 @@ body {
 }
 .b:active {
     color: white;
+}
+.p {
+    text-decoration: none;
+    color: rgb(118, 44, 44);
+}
+#io {
+    margin-top: 15px;
+    width: 40px;
+    height: 40px;
 }
